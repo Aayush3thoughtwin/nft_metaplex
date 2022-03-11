@@ -79,7 +79,7 @@ export class UpdateMetadataArgs {
 }
 
 export class CreateMasterEditionArgs {
-  instruction: number = 10;
+  instruction: number = 1000;
   maxSupply: BN | null;
   constructor(args: { maxSupply: BN | null }) {
     this.maxSupply = args.maxSupply;

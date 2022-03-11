@@ -18,15 +18,15 @@ import reportWebVitals from './reportWebVitals';
 // import "./index.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ConnectionProvider>
-      <WalletProvider>
-        <ColorModeContextProvider>
-          <App />
-        </ColorModeContextProvider>
-      </WalletProvider>
-    </ConnectionProvider>
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <ConnectionProvider>
+    <WalletProvider>
+      <ColorModeContextProvider>
+        <App />
+      </ColorModeContextProvider>
+    </WalletProvider>
+  </ConnectionProvider>,
+  // </React.StrictMode>,
   document.getElementById('root'),
 );
 

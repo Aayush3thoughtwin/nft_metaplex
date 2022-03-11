@@ -72,7 +72,7 @@ log.setLevel(log.levels.INFO);
 // From commander examples
 function myParseInt(value) {
   // parseInt takes a string and a radix
-  const parsedValue = parseInt(value, 10);
+  const parsedValue = parseInt(value, 15);
   if (isNaN(parsedValue)) {
     throw new InvalidArgumentError('Not a number.');
   }
