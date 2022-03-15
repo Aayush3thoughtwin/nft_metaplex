@@ -1,10 +1,10 @@
 {
-  "name": "Your Collection #9",
-  "symbol": "YC",
-  "description": "Remember to replace this description",
+  "name": "Icury #9",
+  "symbol": "IC",
+  "description": "Icury NFT",
   "seller_fee_basis_points": 1000,
   "image": "9.png",
-  "external_url": "https://www.youtube.com/c/hashlipsnft",
+  "external_url": "https://playtoearn.net/non-fungible-token/icury",
   "edition": 9,
   "attributes": [
     {
@@ -13,11 +13,11 @@
     },
     {
       "trait_type": "Eyeball",
-      "value": "Red"
+      "value": "White"
     },
     {
       "trait_type": "Eye color",
-      "value": "Green"
+      "value": "Pink"
     },
     {
       "trait_type": "Iris",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Bottom lid",
-      "value": "High"
+      "value": "Low"
     },
     {
       "trait_type": "Top lid",
@@ -46,7 +46,7 @@
     "category": "image",
     "creators": [
       {
-        "address": "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+        "address": "Fn2Vwi15haPDB4RAr9vfpT6HPz91HSuoYQDTLrDMWnCq",
         "share": 100
       }
     ]
