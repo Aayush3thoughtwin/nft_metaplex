@@ -519,7 +519,7 @@ async function writeIndices({
     let configLines = allIndicesInSlice.slice(offset, offset + 16);
     while (
       length < 850 &&
-      lineSize < 16 &&
+      lineSize < 1000 &&
       configLines[lineSize] !== undefined
     ) {
       length +=

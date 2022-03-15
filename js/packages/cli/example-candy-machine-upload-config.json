@@ -1,7 +1,7 @@
 {
-  "price": 0.01,
+  "price": 1.0,
   "number": 10,
-  "gatekeeper": null ,
+  "gatekeeper":null ,
   "solTreasuryAccount": null,
   "splTokenAccount": null,
   "splToken": null,

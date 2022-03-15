@@ -53,10 +53,17 @@ export const MintButton = ({
 
     return 'MINT';
   };
+  // console.log("This is mint button",MintButton);
+
+  // alert(isMinting)
+  // console.log("<<>><<><><>>>",clicked);
+  // console.log("isActive",isActive);
+
+  console.log(clicked || isMinting || isActive);
 
   return (
     <CTAButton
-      disabled={clicked || isMinting || !isActive}
+      disabled={clicked || isMinting || isActive}
       onClick={async () => {
         setClicked(true);
         if (candyMachine?.state.isActive && candyMachine?.state.gatekeeper) {

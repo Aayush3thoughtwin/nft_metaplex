@@ -72,7 +72,7 @@ log.setLevel(log.levels.INFO);
 // From commander examples
 function myParseInt(value) {
   // parseInt takes a string and a radix
-  const parsedValue = parseInt(value, 15);
+  const parsedValue = parseInt(value, 20);
   if (isNaN(parsedValue)) {
     throw new InvalidArgumentError('Not a number.');
   }
@@ -107,7 +107,7 @@ programCommand('upload')
     '-rl, --rate-limit <number>',
     'max number of concurrent requests for the write indices command',
     myParseInt,
-    5,
+    100,
   )
   .option(
     '-m, --collection-mint <string>',

@@ -91,6 +91,7 @@ const Home = (props: HomeProps) => {
         );
         let active =
           cndy?.state.goLiveDate?.toNumber() < new Date().getTime() / 1000;
+
         let presale = false;
         // whitelist mint?
         if (cndy?.state.whitelistMintSettings) {
@@ -117,6 +118,7 @@ const Home = (props: HomeProps) => {
           const mint = new anchor.web3.PublicKey(
             cndy.state.whitelistMintSettings.mint,
           );
+
           const token = (await getAtaForMint(mint, anchorWallet.publicKey))[0];
 
           try {
@@ -250,6 +252,8 @@ const Home = (props: HomeProps) => {
 
   const toggleMintButton = () => {
     let active = !isActive || isPresale;
+    // console.log("Active",active);
+    // alert("active",active)
 
     if (active) {
       if (candyMachine!.state.isWhitelistOnly && !isWhitelistUser) {
